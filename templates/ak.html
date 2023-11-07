@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css'%}">
+</head>
+<body>
+    <h1>I am a python developer</h1>
+    <img src="{% static 'images/tom and jerry.jpg' %}"alt="Good">
+    <!-- <img src="{% static 'images/natural.jpg'%}"alt="Good" -->
+    <!-- <img src="{% static 'images/cartoon.jpg'%}"alt="Good"> -->
+    <h2>{{NAME}} </h2>
+    <P>{{ID}}</P>
+    <!-- <form action="product" autocomplete="off">
+        <h1>STUDENT MARKS</h1> -->
+        <!-- mobile<input type="text" name="mobile"><br><br>
+        keyword<input type="text" name="keyword"><br><br>
+        monitor<input type="text" name="monitor"><br><br>
+        <input type="submit" name="submit"> -->
+        <form action="student" autocomplete="off">
+            <h1>STUDENT MARKS</h1>
+        Name=<input type="text" name="Name"><br><br>
+        Maths<input type="text" name="Maths"><br><br>
+        English<input type="text" name="English"><br><br>
+        Social<input type="text" name="Social"><br><br>
+        Science<input type="text" name="Science"><br><br>
+        Tamil<input type="text" name="Tamil"><br><br>
+
+        <input type="submit" name="submit">
+
+
+
+    </form>
+    
+</body>
+</html>
